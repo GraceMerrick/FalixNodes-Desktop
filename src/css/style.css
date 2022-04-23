@@ -8,11 +8,13 @@ body {
   font-family: Poppins;
 }
 
+
 html.windows [data-for-os=mac] {display: none !important}
 html.mac [data-for-os=windows] {display: none !important}
 .linux #titlebar {display: none !important}
 html.mac .topNav {margin-top: 40px}
 html.windows .topNav {margin-top: 40px;}
+.page_content {display: none;}
 
 *:focus {outline: none;}
 ::-webkit-scrollbar {width: 4px;height: 5px;background: #0e1a27;}
