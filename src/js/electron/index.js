@@ -23,7 +23,7 @@ else {
   global.update = autoUpdater.checkForUpdates();
 }
 
-global.devMode = false
+global.devMode = true
 if (process.platform == 'darwin') {
     app.whenReady().then(() => {
       global.blur = "vibrancy"
@@ -82,7 +82,7 @@ function createWindow() {
     center: true,
     width: 700,
     height: 184,
-    resizable: true,
+    resizable: false,
     blur: true,
     blurType: global.blur,
     webPreferences: {
