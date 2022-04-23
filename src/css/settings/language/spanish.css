@@ -149,3 +149,10 @@ span#lang_sel_do_lv::before {
     margin: 6px 0px 0px 5px;
     border-radius: 4px;
 }
+
+/* Extra Adjustments */
+div#client_panel_CC {top: calc(80px - var(--sidebar-component-top-position)) !important;}
+.controls {top: 125px !important;}
+
+svg#IndicatorCP {top: 58px;}
+svg#IndicatorGP {top: 102px;}
