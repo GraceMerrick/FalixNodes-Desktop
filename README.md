@@ -4,7 +4,7 @@
 
 Simple and stylish to use! Access FalixNodes features such as your client and game panel, help center, phpMyAdmin, status, and more all from a centralized place.
 
-[Download Now](https://desktop.falixnodes.net/)  
+[Download Now](https://falixnodes.net/en/desktop)  
 [View on Electron Apps](https://www.electronjs.org/apps/falix-software)
 
 ## FAQ
